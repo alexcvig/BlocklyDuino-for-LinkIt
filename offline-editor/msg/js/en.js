@@ -102,7 +102,7 @@ Blockly.Msg.CATEGORY_OTTO = "Otto";
 Blockly.Msg.CATEGORY_I2C_MATRIX = "LED Matrix";
 Blockly.Msg.CATEGORY_I2C_SEVENSEG = "7 Segment";
 Blockly.Msg.CATEGORY_IFTTT = "IFTTT";
-Blockly.Msg.CATEGORY_GAME = "game";
+Blockly.Msg.CATEGORY_REMOTE = "Remote";
 Blockly.Msg.CATEGORY_INITIALIZES = "Initializes";
 Blockly.Msg.CATEGORY_INOUT = "In/Out";
 Blockly.Msg.CATEGORY_INTERRUPTS = "Interrupts";
@@ -1390,3 +1390,26 @@ Blockly.Msg.BUTTON_BOARD_SETTINGS = "Board Settings";
 Blockly.Msg.TEXT_UPLOADER_STATUS = "Uploader Status";
 Blockly.Msg.TEXT_BOARD = "Board";
 Blockly.Msg.TEXT_COM_PORT = "COM Port";
+
+
+// Remote
+Blockly.Msg.REMOTE_HELPURL = "";
+Blockly.Msg.REMOTE_TOOLTIP = "";
+Blockly.Msg.REMOTE_TITLE = "遙控";
+Blockly.Msg.REMOTE_NAME = "Name";
+Blockly.Msg.REMOTE_ROW = "Row";
+Blockly.Msg.REMOTE_COL = "Col";
+Blockly.Msg.REMOTE_STYLE_Straight = "Straight";
+Blockly.Msg.REMOTE_STYLE_Horizontal = "Horizontal";
+Blockly.Msg.REMOTE_NAME = "Name";
+Blockly.Msg.REMOTE_POSITION_COL = "Position : col";
+Blockly.Msg.REMOTE_POSITION_ROW = "row";
+Blockly.Msg.REMOTE_SIZE_COL = "Size : col";
+Blockly.Msg.REMOTE_SIZE_ROW = "row";
+Blockly.Msg.REMOTE_COLOR = "color";
+Blockly.Msg.VARIABLES_TYPE_STRING_Orange = "Orange";
+Blockly.Msg.VARIABLES_TYPE_STRING_blue = "blue";
+Blockly.Msg.VARIABLES_TYPE_STRING_green = "green";
+Blockly.Msg.VARIABLES_TYPE_STRING_Pink = "Pink";
+Blockly.Msg.VARIABLES_TYPE_STRING_gray = "gray";
+Blockly.Msg.VARIABLES_TYPE_STRING_yellow = "yellow";

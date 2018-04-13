@@ -102,7 +102,7 @@ Blockly.Msg.CATEGORY_OTTO = "Otto";
 Blockly.Msg.CATEGORY_I2C_MATRIX = "LED 矩陣";
 Blockly.Msg.CATEGORY_I2C_SEVENSEG = "7 段 LED";
 Blockly.Msg.CATEGORY_IFTTT = "IFTTT";
-Blockly.Msg.CATEGORY_GAME = "遊戲";
+Blockly.Msg.CATEGORY_REMOTE = "遙控器";
 Blockly.Msg.CATEGORY_INITIALIZES = "程式流程";
 Blockly.Msg.CATEGORY_INOUT = "輸入/輸出";
 Blockly.Msg.CATEGORY_INTERRUPTS = "中斷訊號";
@@ -1371,3 +1371,25 @@ Blockly.Msg.TEXT_BOARD = "開發板";
 Blockly.Msg.TEXT_COM_PORT = "連接埠";
 
 Blockly.Msg.GAME_CAT_PICTURE_TOOLTIP = "貓";
+
+// Remote
+Blockly.Msg.REMOTE_HELPURL = "";
+Blockly.Msg.REMOTE_TOOLTIP = "";
+Blockly.Msg.REMOTE_TITLE = "Remote";
+Blockly.Msg.REMOTE_NAME = "名稱";
+Blockly.Msg.REMOTE_ROW = "行";
+Blockly.Msg.REMOTE_COL = "列";
+Blockly.Msg.REMOTE_STYLE_Straight = "直式";
+Blockly.Msg.REMOTE_STYLE_Horizontal = "橫式";
+Blockly.Msg.REMOTE_NAME = "名稱";
+Blockly.Msg.REMOTE_POSITION_COL = "位置 : 列";
+Blockly.Msg.REMOTE_POSITION_ROW = "行";
+Blockly.Msg.REMOTE_SIZE_COL = "大小： 列";
+Blockly.Msg.REMOTE_SIZE_ROW = "行";
+Blockly.Msg.REMOTE_COLOR = "顏色";
+Blockly.Msg.VARIABLES_TYPE_STRING_Orange = "橘色";
+Blockly.Msg.VARIABLES_TYPE_STRING_blue = "藍色";
+Blockly.Msg.VARIABLES_TYPE_STRING_green = "綠色";
+Blockly.Msg.VARIABLES_TYPE_STRING_Pink = "粉色";
+Blockly.Msg.VARIABLES_TYPE_STRING_gray = "灰色";
+Blockly.Msg.VARIABLES_TYPE_STRING_yellow = "黃色";

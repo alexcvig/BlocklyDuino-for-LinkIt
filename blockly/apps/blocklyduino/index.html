@@ -137,15 +137,10 @@
                     </tr></table></td>
         </tr><tr><td height="99%" id="content_area"></td>
         </tr></table><div id="content_blocks" class="content"></div>
-    <textarea id="content_arduino" class="content" readonly wrap="off"></textarea><xml id="toolbox" style="display: none"><category id="category_game">
-    <block type="game_cat_picture"></block>
-</category>
-
-<category id="category_initializes">
+    <textarea id="content_arduino" class="content" readonly wrap="off"></textarea><xml id="toolbox" style="display: none"><category id="category_initializes">
     <block type="initializes_setup"></block>
     <block type="initializes_loop"></block>
     <block type="initializes_temp"></block>
-    <block type="game_cat_picture"></block>
 </category>
 
 <category id="category_digital">
@@ -509,6 +504,46 @@
     </value>
 </block>
 </category>
+
+<category id="category_remote">
+    <block type="game_cat_picture"></block>
+    <block type="remote_setup">
+         <value name="ROW">
+        <block type="math_number">
+            <field name="NUM">3</field>
+        </block>
+    </value>
+    <value name="COL">
+        <block type="math_number">
+            <field name="NUM">3</field>
+        </block>
+    </value>
+</block>
+<block type="remote_deploy">
+    <value name="position_col">
+        <block type="math_number">
+            <field name="NUM">0</field>
+        </block>
+    </value>
+    <value name="position_row">
+        <block type="math_number">
+            <field name="NUM">0</field>
+        </block>
+    </value>
+    <value name="size_col">
+        <block type="math_number">
+            <field name="NUM">0</field>
+        </block>
+    </value>
+    <value name="size_row">
+        <block type="math_number">
+            <field name="NUM">0</field>
+        </block>
+    </value>
+</block>
+</block>
+</category>
+
 <category id="category_linkit_ble">
 <!--
 <block type="linkit_ble_wait_until_ready"></block>
